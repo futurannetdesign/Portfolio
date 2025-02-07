@@ -1,0 +1,58 @@
+.aside-skills-container {
+  border-bottom: solid 1px #F0F0F6;
+  padding-bottom: 1.4rem;
+  
+}
+.aside-skills {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    color: #2B2B2B;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 1rem;
+  }
+}
+.aside-skills-info-title {
+  display: flex;
+  gap: 14rem;
+  span {
+    color: #767676;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 1rem;
+  }
+}
+.aside-carregando {
+  background-color: #FFB400;
+  border: solid 2px #FFF;
+  border-radius: 5px;
+  width: 21.4rem;
+  height: 0.8rem;
+}
+.aside-carregando-2 {
+  background-color: #FFB400;
+  border: solid 2px #FFF;
+  border-radius: 5px;
+  width: 20rem;
+  height: 0.8rem;
+}
+.aside-carregando-3 {
+  background-color: #FFB400;
+  border: solid 2px #FFF;
+  border-radius: 5px;
+  width: 18rem;
+  height: 0.8rem;
+}
+.aside-carregando-borda {
+  border-radius: 5px;
+  width: 90%;
+  border: solid 1px #FFB400;
+  margin: 0.4rem 1rem;
+}
+.aside-carregando-borda-2 {
+  border-radius: 5px;
+  width: 90%;
+  border: solid 1px #FFB400;
+  margin: 0.4rem 1rem;
+}

@@ -1,0 +1,43 @@
+.aside-skills_extra-container {
+  border-bottom: solid 1px #F0F0F6;
+  padding-bottom: 1.4rem;
+  h3 {
+    color: #2B2B2B;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 1rem;
+  }
+}
+.aside-skills_extra-info {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem;
+  span {
+    color: #767676;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+.aside-left-button {
+  margin: 2rem;
+  button {
+    background-color: #FFB400;
+    border: none;
+    border-radius: 0.5rem;
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem 4rem;
+  }
+  button:hover {
+    background-color: rgba(255, 180, 0, 0.95);
+    color: #2B2B2B;
+    transform: scale(1.05);
+  }
+}
