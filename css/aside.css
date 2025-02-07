@@ -4,6 +4,7 @@
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   width: 100%;
   max-width: 24rem;
+  
 }
 .aside-left {
   border-radius: 0.5rem;
@@ -57,7 +58,7 @@
     font-size: 1.1rem;
     font-weight: 400;
     padding: 0.2rem 1rem;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
   } 
   strong {
     color: #2B2B2B;
@@ -103,7 +104,7 @@
   background-color: #FFB400;
   border: solid 2px #FFF;
   border-radius: 5px;
-  width: 20rem;
+  width: 30rem;
   height: 0.8rem;
 }
 .aside-carregando-3 {

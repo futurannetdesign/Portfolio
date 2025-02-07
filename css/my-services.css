@@ -1,0 +1,51 @@
+.my-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+
+  h2 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  p {
+    color: #767676;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+    max-width: 42rem;
+    text-align: center;
+  }
+}
+.my-services-cards {
+  display: flex;
+  gap: 1.4rem;
+  margin-top: 2.5rem;
+}
+.my-services-card {
+  background: #FFF;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  width: 21rem;
+  height: 20rem;
+  transition: all 0.3s ease-in-out;
+  strong {
+    color: #2B2B2B;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+  }
+  p {
+    color: #767676;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+.my-services-card:hover {
+  transform: scale(1.05);
+}
