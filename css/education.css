@@ -1,4 +1,4 @@
-.section-education {
+.section-education, .section-workhistory {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -19,7 +19,7 @@
     margin: 0 auto;
   }
 }
-.section-education-info {
+.section-education-info, .section-workhistory-info {
   background: #FFF;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   display: flex;
@@ -28,13 +28,13 @@
   padding: 2rem 0;
   max-width: 90rem;
 }
-.section-education-info-1 {
+.section-education-info-1, .section-workhistory-info-info-1 {
   display: flex;
   gap: 10rem;
   padding-bottom: 1rem;
   border-bottom: solid #F0F0F6 1px;
 }
-.section-education-info-text {
+.section-education-info-text, .section-workhistory-info-text {
   margin:4.6rem 4.6rem;
   h3 {
     color: #2B2B2B;
@@ -42,7 +42,7 @@
     font-weight: 500;
   }
 }
-.section-education-info-student {
+.section-education-info-student, .section-workhistory-info-student {
   width: 100%;
   width: 16rem;
   display: flex;
@@ -62,7 +62,7 @@
     background: #FFB400;
   }
 }
-.section-education-info--text {
+.section-education-info--text, .section-workhistory-info--text {
   margin-top:4.6rem;
   h3 {
     color: #2B2B2B;
