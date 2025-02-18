@@ -26,7 +26,7 @@
   flex-direction: column;
   margin-top: 6rem;
   padding: 2rem 0;
-  max-width: 90rem;
+  width: 78rem;
 }
 .section-education-info-1, .section-workhistory-info-info-1 {
   display: flex;

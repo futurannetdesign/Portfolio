@@ -1,13 +1,10 @@
 .my-services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 6rem;
-
+  margin-top: 10rem;
   h2 {
     font-size: 3.2rem;
     font-weight: 800;
     margin-bottom: 2rem;
+    text-align: center;
   }
   p {
     color: #767676;
@@ -16,11 +13,14 @@
     line-height: 1.6;
     max-width: 42rem;
     text-align: center;
+    margin: 0 auto;
   }
 }
 .my-services-cards {
-  display: flex;
-  gap: 1.4rem;
+  width: 100%;
+  max-width: 96rem;
+  display: inline-flex;
+  gap: 4rem;
   margin-top: 2.5rem;
 }
 .my-services-card {
@@ -31,7 +31,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  width: 21rem;
+  width: 24rem;
   height: 20rem;
   transition: all 0.3s ease-in-out;
   strong {

@@ -6,7 +6,8 @@
     font-size: 3.2rem;
     font-weight: 600;
     text-align: center;
-    margin-top: 6rem;
+    display: block;
+    margin: 0 auto;
   }
   p {
     color: #767676;
@@ -29,9 +30,10 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 32rem;
+  width: 25rem;
   margin-top: 6rem;
   padding-bottom: 2.4rem;
+  transition: all 0.3s ease-in-out;
   img {
     width: 10rem;
     margin-left: 2rem;
@@ -52,6 +54,9 @@
     text-align: left;
     margin-left: 2rem;
   }
+}
+.section-recommendations-card:hover {
+  transform: scale(1.05);
 }
 .section-recommendations-card-perfil {
   display: flex;
